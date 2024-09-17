@@ -48,6 +48,7 @@ public class Testbase {
 			System.setProperty("WebDriver.Fire.Fox", "E:/Bhavani/chromedriver-win64/chromedriver.exe");
 			// driver = new GeekoDriver();
 		}
+		System.out.println("H");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 //		driver.manage().timeouts().pageLoadTimeout(TestUtile.Page_Load_Timeout, TimeUnit.SECONDS);
