@@ -12,7 +12,7 @@ public class Workday_TC_demo extends BaseClass {
 	
 	String Start_proxy_title = start_proxy.startProxy(AppConstants.STARTPROXY);
 	
-	//String Auth_title = authenticate.Authentication(Proxy);
+	String Auth_title = authenticate.Authentication(Proxy);
 	
 	
 
