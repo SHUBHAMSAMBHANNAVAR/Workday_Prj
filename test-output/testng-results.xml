@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T17:44:23 IST" name="Default suite" finished-at="2024-09-17T17:45:06 IST" duration-ms="42668">
+    <groups>
+    </groups>
+    <test started-at="2024-09-17T17:44:23 IST" name="Default test" finished-at="2024-09-17T17:45:06 IST" duration-ms="42668">
+      <class name="com.workday.tests.Workday_TC_demo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.workday.tests.Workday_TC_demo@6bbe85a8]" started-at="2024-09-17T17:44:23 IST" name="setUp" finished-at="2024-09-17T17:44:47 IST" duration-ms="23877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Workday_TC_demo()[pri:0, instance:com.workday.tests.Workday_TC_demo@6bbe85a8]" started-at="2024-09-17T17:44:47 IST" name="Workday_TC_demo" finished-at="2024-09-17T17:45:06 IST" duration-ms="18717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Workday_TC_demo -->
+      </class> <!-- com.workday.tests.Workday_TC_demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
