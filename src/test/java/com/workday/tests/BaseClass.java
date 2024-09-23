@@ -47,21 +47,19 @@ public class BaseClass extends Testbase {
 	    Thread.currentThread().interrupt(); // Preserve interrupt status
 	    System.out.println("Thread was interrupted!");
 	}
-	String Loginver_title = loginPage.LoginVerification();
 	
 
 	/**
 	 * Using valid credentials login to the application and verifying through the
 	 * titles of the page
-	 */
-
-	
+	 */	
 	try {
 		String LoginTest_title = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	    Thread.sleep(1000);
 	} catch (InterruptedException e) {
 	    Thread.currentThread().interrupt(); // Preserve interrupt status
 	    System.out.println("Thread was interrupted!");
+	    
 	}
 }
 }

@@ -23,8 +23,9 @@ public class Search_Modules extends Testbase {
 	WebElement Button;
 
 	// Object Repository for Adhoc_Link
-	@FindBy(xpath = "//a[@data-automation-id='pex-search-results-header-title-link']")
+	@FindBy(xpath = "(//a[@data-automation-id='pex-search-results-header-title-link'])[1]")
 	WebElement Adhoc_Link;
+	
 
 	// Initilizing the page object
 	public Search_Modules() {
@@ -43,7 +44,7 @@ public class Search_Modules extends Testbase {
 			Thread.sleep(6000);
 			searchInput.sendKeys(Create); //Entering for the data
 			Button.click();
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			Adhoc_Link.click();//Clicking on the link
 			Thread.sleep(4000);
 			return driver.getTitle();
